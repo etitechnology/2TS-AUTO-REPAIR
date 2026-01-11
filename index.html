@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>2 T's Auto Repair Home Page</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#137fec",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101922",
+          },
+          fontFamily: {
+            "display": ["Public Sans", "sans-serif"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#111418] dark:text-white">
+<!-- Top Navigation -->
+<div class="sticky top-0 z-50 flex items-center bg-white dark:bg-background-dark p-4 justify-between border-b border-gray-200 dark:border-gray-800">
+<div class="text-primary flex size-10 shrink-0 items-center" data-icon="menu">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</div>
+<h2 class="text-[#111418] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">2 T's Auto Repair</h2>
+<div class="flex w-10 items-center justify-end">
+<button class="flex cursor-pointer items-center justify-center rounded-lg h-10 w-10 bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-2xl">call</span>
+</button>
+</div>
+</div>
+<!-- Hero Section -->
+<div class="@container">
+<div class="p-0">
+<div class="flex min-h-[420px] flex-col gap-6 bg-cover bg-center bg-no-repeat items-center justify-center p-6 text-center" data-alt="Professional auto repair shop interior with clean bays" style='background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBx1mv-iFZjnNbldjoKSQIRXj6azI2XndUAt8hQaxHh8sejhTYbWFS1M4KD8U3qkV7vBwKlWqETqFQOUxL1tCyGjnLUVZH4yvYAr36oOsXBtTxkyO7CEWiQjCqVkr7MpwfYBq59ntqZ24irvVATHpphz5WHKi5ja8SGLaD5Rv7-QhMyI1XEiKeERn8nKqf94jkSrG1eOPZ7kG_E7DbsOGSsv9i5CQ1yg3Qz0C4G84_2s6IxRnOGfA1X2RNoIThgpSQRppId7b-Yc9U");'>
+<div class="flex flex-col gap-3">
+<div class="inline-flex self-center bg-primary text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">
+            AAA Approved Facility
+          </div>
+<h1 class="text-white text-4xl font-black leading-tight tracking-tight">
+            Expert Auto Care You Can Trust
+          </h1>
+<p class="text-white/90 text-base font-normal max-w-[300px] mx-auto">
+            Award-winning service for all makes and models.
+          </p>
+</div>
+<button class="flex w-full max-w-[320px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-14 px-5 bg-primary text-white text-base font-bold leading-normal tracking-wide shadow-lg shadow-primary/30">
+<span class="truncate">Request an Appointment</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Trust Badges (ImageGrid variant) -->
+<div class="bg-white dark:bg-background-dark py-6">
+<div class="grid grid-cols-2 gap-4 px-4">
+<div class="flex flex-col items-center gap-3 p-4 rounded-xl border border-gray-100 dark:border-gray-800 bg-background-light/50 dark:bg-gray-900/50">
+<div class="w-16 h-16 bg-white dark:bg-gray-800 flex items-center justify-center rounded-full shadow-sm" data-alt="AAA Approved Logo icon">
+<span class="material-symbols-outlined text-primary text-4xl">verified</span>
+</div>
+<p class="text-[#111418] dark:text-white text-sm font-bold text-center">AAA Approved Facility</p>
+</div>
+<div class="flex flex-col items-center gap-3 p-4 rounded-xl border border-gray-100 dark:border-gray-800 bg-background-light/50 dark:bg-gray-900/50">
+<div class="w-16 h-16 bg-white dark:bg-gray-800 flex items-center justify-center rounded-full shadow-sm" data-alt="ASE Certified Technicians icon">
+<span class="material-symbols-outlined text-primary text-4xl">workspace_premium</span>
+</div>
+<p class="text-[#111418] dark:text-white text-sm font-bold text-center">ASE Certified Techs</p>
+</div>
+</div>
+</div>
+<!-- Special Offer Banner -->
+<div class="px-4 pb-6">
+<div class="bg-primary/10 dark:bg-primary/20 border border-primary/20 rounded-xl p-5 flex items-center gap-4">
+<div class="bg-primary text-white p-3 rounded-lg">
+<span class="material-symbols-outlined">sell</span>
+</div>
+<div>
+<h3 class="text-primary font-bold text-lg leading-tight">10% AAA Discount</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm">Members save more on all services</p>
+</div>
+</div>
+</div>
+<!-- Services Section -->
+<div class="bg-white dark:bg-background-dark rounded-t-[2rem] pt-2">
+<h2 class="text-[#111418] dark:text-white text-[22px] font-extrabold leading-tight tracking-tight px-6 pb-2 pt-8">Our Services</h2>
+<div class="grid grid-cols-1 gap-3 p-4">
+<!-- General Care -->
+<div class="flex items-center gap-4 rounded-xl border border-[#dbe0e6] dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
+<div class="flex size-12 items-center justify-center rounded-lg bg-background-light dark:bg-gray-800 text-primary">
+<span class="material-symbols-outlined">build</span>
+</div>
+<div class="flex flex-col gap-1 flex-1">
+<h3 class="text-[#111418] dark:text-white text-base font-bold">General Auto Care</h3>
+<p class="text-[#617589] dark:text-gray-400 text-xs">Full maintenance &amp; inspections</p>
+</div>
+<span class="material-symbols-outlined text-gray-400">chevron_right</span>
+</div>
+<!-- Brakes -->
+<div class="flex items-center gap-4 rounded-xl border border-[#dbe0e6] dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
+<div class="flex size-12 items-center justify-center rounded-lg bg-background-light dark:bg-gray-800 text-primary">
+<span class="material-symbols-outlined">album</span>
+</div>
+<div class="flex flex-col gap-1 flex-1">
+<h3 class="text-[#111418] dark:text-white text-base font-bold">Brakes &amp; Rotors</h3>
+<p class="text-[#617589] dark:text-gray-400 text-xs">Expert repair &amp; servicing</p>
+</div>
+<span class="material-symbols-outlined text-gray-400">chevron_right</span>
+</div>
+<!-- Tires -->
+<div class="flex items-center gap-4 rounded-xl border border-[#dbe0e6] dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
+<div class="flex size-12 items-center justify-center rounded-lg bg-background-light dark:bg-gray-800 text-primary">
+<span class="material-symbols-outlined">tire_repair</span>
+</div>
+<div class="flex flex-col gap-1 flex-1">
+<h3 class="text-[#111418] dark:text-white text-base font-bold">Tire Services</h3>
+<p class="text-[#617589] dark:text-gray-400 text-xs">Sales, rotation &amp; alignment</p>
+</div>
+<span class="material-symbols-outlined text-gray-400">chevron_right</span>
+</div>
+<!-- Transmission -->
+<div class="flex items-center gap-4 rounded-xl border border-[#dbe0e6] dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
+<div class="flex size-12 items-center justify-center rounded-lg bg-background-light dark:bg-gray-800 text-primary">
+<span class="material-symbols-outlined">settings_input_component</span>
+</div>
+<div class="flex flex-col gap-1 flex-1">
+<h3 class="text-[#111418] dark:text-white text-base font-bold">Transmission</h3>
+<p class="text-[#617589] dark:text-gray-400 text-xs">Advanced diagnostic &amp; repair</p>
+</div>
+<span class="material-symbols-outlined text-gray-400">chevron_right</span>
+</div>
+<!-- Electrical -->
+<div class="flex items-center gap-4 rounded-xl border border-[#dbe0e6] dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
+<div class="flex size-12 items-center justify-center rounded-lg bg-background-light dark:bg-gray-800 text-primary">
+<span class="material-symbols-outlined">bolt</span>
+</div>
+<div class="flex flex-col gap-1 flex-1">
+<h3 class="text-[#111418] dark:text-white text-base font-bold">Electrical Systems</h3>
+<p class="text-[#617589] dark:text-gray-400 text-xs">Wiring, battery &amp; starter</p>
+</div>
+<span class="material-symbols-outlined text-gray-400">chevron_right</span>
+</div>
+</div>
+</div>
+<!-- Amenities Section -->
+<div class="bg-background-light dark:bg-gray-950 px-6 py-8">
+<h2 class="text-[#111418] dark:text-white text-xl font-bold mb-4">While You Wait</h2>
+<div class="flex gap-6 overflow-x-auto pb-4 no-scrollbar">
+<div class="flex flex-col items-center min-w-[100px] gap-2">
+<div class="size-14 rounded-full bg-white dark:bg-gray-800 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary">wifi</span>
+</div>
+<span class="text-xs font-medium dark:text-gray-300">Free Wi-Fi</span>
+</div>
+<div class="flex flex-col items-center min-w-[100px] gap-2">
+<div class="size-14 rounded-full bg-white dark:bg-gray-800 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary">coffee</span>
+</div>
+<span class="text-xs font-medium dark:text-gray-300">Complimentary Coffee</span>
+</div>
+<div class="flex flex-col items-center min-w-[100px] gap-2">
+<div class="size-14 rounded-full bg-white dark:bg-gray-800 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary">local_drink</span>
+</div>
+<span class="text-xs font-medium dark:text-gray-300">Cold Water</span>
+</div>
+</div>
+</div>
+<!-- Location Section -->
+<div class="p-6 bg-white dark:bg-background-dark mb-24">
+<div class="flex items-center justify-between mb-4">
+<h2 class="text-[#111418] dark:text-white text-xl font-bold">Our Location</h2>
+<div class="flex items-center gap-1 text-green-600 text-sm font-bold">
+<span class="inline-block size-2 rounded-full bg-green-600"></span>
+            Open Now
+        </div>
+</div>
+<div class="w-full h-40 bg-gray-200 dark:bg-gray-800 rounded-xl mb-4 flex items-center justify-center" data-location="Los Angeles, USA" style="https://lh3.googleusercontent.com/aida-public/AB6AXuChoLRMp2YwJBUN3HrigDhHCMZ1ePNAza74HUI9GIVQ1RNlcw1Lr_hWJyaD7RmX69FXnDF0UD3ysYjMmVhi3wKpkip5Vg0U2E4oCWW2x114BEJkATlNuyVOWHP37upA_cyBXrl9__Fg2BEdj_ad3wNeq6LG1W8zzAseGvLjMr8gntokAlsV7-15TSXG3FZkbwFRAh_gKfhsq-CwPmB-BRsuNsdEPQ62etGrK17IWnXqa-G9WU9ufkMbOcpoOwtdI1Y84lizkPkPgcg">
+<span class="material-symbols-outlined text-4xl text-gray-400">map</span>
+</div>
+<div class="flex flex-col gap-1">
+<p class="font-bold text-[#111418] dark:text-white">123 Mechanic Lane, Suite 100</p>
+<p class="text-sm text-gray-500">Mon - Fri: 8:00 AM - 6:00 PM</p>
+</div>
+</div>
+<!-- Sticky Footer CTA -->
+<div class="fixed bottom-0 left-0 right-0 p-4 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-t border-gray-100 dark:border-gray-800">
+<div class="flex gap-3">
+<button class="flex-1 h-12 rounded-lg border border-primary text-primary font-bold flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">call</span>
+            Call Shop
+        </button>
+<button class="flex-[2] h-12 rounded-lg bg-primary text-white font-bold flex items-center justify-center gap-2 shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined">calendar_month</span>
+            Book Now
+        </button>
+</div>
+</div>
+<div class="h-5 bg-white dark:bg-background-dark"></div>
+</body></html>
